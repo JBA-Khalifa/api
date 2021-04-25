@@ -2,6 +2,14 @@
 
 ## master
 
+Changes:
+
+- Update `EthBlock`/`EthHeader` types (as per Rust origin)
+- Updated Xcm `OriginKind` enum
+
+
+## 4.7.1 Apr 25, 2021
+
 Upgrade priority: Low. Recommended for users following Substrate master.
 
 Changes:
@@ -16,6 +24,8 @@ Changes:
 - Adjust WebSocket reconnection delay from 1s to 2.5s
 - Revert Beefy keys addition for Westend
 - Add explicit `engines` config to `package.json`
+- Support for `None` in `RewardDestination`
+- Align with latest substrate metadata
 
 
 ## 4.6.2 Apr 19, 2021
